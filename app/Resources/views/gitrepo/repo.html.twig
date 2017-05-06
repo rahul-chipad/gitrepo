@@ -1,0 +1,6 @@
+<h1>Symfony Git Repositories</h1>
+<ul>
+    {% for repo in repos %}
+        <li>{{ repo.name|e }} -> {{ repo.url|e }}</li>
+    {% endfor %}
+</ul>
